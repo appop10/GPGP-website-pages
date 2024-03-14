@@ -58,9 +58,10 @@ nav {
     align-items: center;
     background-color: $yellow-transparant;
     padding: 0.5em 0;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 150;
+    width: 100%;
 
     .GPGP-large {
         font-size: 2.3em;
