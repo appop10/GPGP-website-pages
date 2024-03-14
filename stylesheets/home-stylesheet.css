@@ -340,10 +340,11 @@ header h1 img {
     width: 65vw;
   }
   .news-container .cards-container .news-card {
-    height: 8vw;
+    width: 20vw;
+    height: 10vw;
   }
   .mission-card {
-    width: 35vw;
+    width: 45vw;
   }
   .icon-container .separation-bar {
     width: 10vw;
@@ -362,6 +363,16 @@ header h1 img {
   }
 }
 @media only screen and (max-width: 1024px) {
+  .news-container {
+    width: 95%;
+    margin: 30vw 0;
+  }
+  .news-container .cards-container .news-card {
+    width: 30vw;
+    height: 14vw;
+  }
+}
+@media only screen and (max-width: 820px) {
   header {
     display: none;
   }
@@ -380,10 +391,6 @@ header h1 img {
   .large-event-card .event-information-block p {
     font-size: 1.2em;
     width: 100%;
-  }
-  .news-container {
-    width: 95%;
-    margin: 30vw 0;
   }
   .news-container .cards-container {
     flex-direction: column;
