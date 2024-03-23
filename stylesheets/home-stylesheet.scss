@@ -107,12 +107,13 @@ header {
     }
 }
 
+
 .mission-card {
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $red-transparant;
+    background-color: $blue-transparant;
     width: 50vw;
     color: $white;
     text-align: center;
