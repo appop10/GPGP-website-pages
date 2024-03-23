@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -388,4 +389,30 @@ header {
 .table-container .indv-cell .game-cell p {
   line-height: 1.5em;
   margin-bottom: 1em;
+}
+
+.game-notes {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(29, 33, 59, 0.8745098039);
+  width: 55%;
+  color: #efece7;
+  padding: 4em 7em;
+  margin: 10vw 0;
+}
+.game-notes h2 {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-shadow: 1px 1px 5px #0c0d0f;
+}
+.game-notes ul li {
+  list-style-type: "⬖";
+  padding: 1em 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+.game-notes ul li::marker {
+  color: #d5ab62;
 }/*# sourceMappingURL=event-stylesheet.css.map */

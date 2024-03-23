@@ -187,3 +187,32 @@ header {
         }
     }
 }
+
+.game-notes {
+    display: flex; 
+    flex-direction: column;
+    background-color: $blue-transparant;
+    width: 55%;
+    color: $white;
+    padding: 4em 7em;
+    margin: 10vw 0;
+
+    h2 {
+        font-size: 2em;
+        font-weight: 400;
+        line-height: 1.5em;
+        @include text-shadow();
+    }
+    ul {
+        li {
+            list-style-type: '⬖';
+            padding: 1em 0.5em;
+            margin-bottom: 0.5em;
+            line-height: 1.5em;
+            font-size: 1.2em;
+        }
+        li::marker {
+            color: $yellow;
+        }
+    }
+}
