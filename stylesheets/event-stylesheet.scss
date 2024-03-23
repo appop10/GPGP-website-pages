@@ -1,1 +1,30 @@
 @import 'main-stylesheet.scss';
+
+.centered-content-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: $black-transparant;
+}
+
+.event-title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7em 0 2em 0;
+
+    h2 {
+        font-size: 3.5em;
+        color: $red;
+        font-weight: 400;
+    }
+    p {
+        color: $white;
+        font-size: 1.5em;
+        margin: 1em 0;
+    }
+}

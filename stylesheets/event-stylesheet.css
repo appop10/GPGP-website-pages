@@ -208,4 +208,31 @@ footer p {
   footer p {
     margin-left: 1em;
   }
+}
+.centered-content-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: rgba(12, 13, 15, 0.8823529412);
+}
+
+.event-title-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7em 0 2em 0;
+}
+.event-title-block h2 {
+  font-size: 3.5em;
+  color: #9f412c;
+  font-weight: 400;
+}
+.event-title-block p {
+  color: #efece7;
+  font-size: 1.5em;
+  margin: 1em 0;
 }/*# sourceMappingURL=event-stylesheet.css.map */
