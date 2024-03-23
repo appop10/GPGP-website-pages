@@ -153,7 +153,6 @@ header {
         .cards-container {
             .news-card {
                 width: 20vw;
-                height: 10vw;
             }
         }
     }
@@ -192,9 +191,10 @@ header {
         margin: 30vw 0;
 
         .cards-container {
+            align-items: center;
+            
             .news-card {
                 width: 30vw;
-                height: 14vw;
             }
         }
     }
@@ -232,7 +232,6 @@ header {
 
             .news-card {
                 width: 45vw;
-                height: 20vw;
                 margin: 1em 0;
             }
         }
@@ -275,7 +274,6 @@ header {
         .cards-container {
             .news-card {
                 width: 75vw;
-                height: 37vw;
                 margin: 1em 0;
             }
         }

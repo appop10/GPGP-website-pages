@@ -345,7 +345,6 @@ header h1 img {
   }
   .news-container .cards-container .news-card {
     width: 20vw;
-    height: 10vw;
   }
   .mission-card {
     width: 45vw;
@@ -371,9 +370,11 @@ header h1 img {
     width: 95%;
     margin: 30vw 0;
   }
+  .news-container .cards-container {
+    align-items: center;
+  }
   .news-container .cards-container .news-card {
     width: 30vw;
-    height: 14vw;
   }
   .mission-card {
     width: 55vw;
@@ -404,7 +405,6 @@ header h1 img {
   }
   .news-container .cards-container .news-card {
     width: 45vw;
-    height: 20vw;
     margin: 1em 0;
   }
   .mission-card {
@@ -439,7 +439,6 @@ header h1 img {
   }
   .news-container .cards-container .news-card {
     width: 75vw;
-    height: 37vw;
     margin: 1em 0;
   }
   .mission-card {
