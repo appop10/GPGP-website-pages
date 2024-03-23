@@ -45,6 +45,11 @@ a {
   text-decoration: underline;
 }
 
+.red-link {
+  color: #9f412c;
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   align-items: center;

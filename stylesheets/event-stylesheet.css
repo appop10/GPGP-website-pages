@@ -45,6 +45,11 @@ a {
   text-decoration: underline;
 }
 
+.red-link {
+  color: #9f412c;
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -235,4 +240,28 @@ header {
   color: #efece7;
   font-size: 1.5em;
   margin: 1em 0;
+}
+
+.image-and-content-block {
+  display: flex;
+  margin: 2em 0;
+}
+.image-and-content-block img {
+  width: 35vw;
+}
+.image-and-content-block .location-information-block {
+  background-color: rgba(29, 33, 59, 0.8745098039);
+  padding: 2em;
+  color: #efece7;
+}
+.image-and-content-block .location-information-block h2 {
+  color: #d5ab62;
+  font-size: 2em;
+  font-weight: 400;
+}
+.image-and-content-block .location-information-block .location-address {
+  margin: 2em 0;
+}
+.image-and-content-block .location-information-block p {
+  line-height: 1.3em;
 }/*# sourceMappingURL=event-stylesheet.css.map */

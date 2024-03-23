@@ -28,3 +28,30 @@ header {
         margin: 1em 0;
     }
 }
+
+.image-and-content-block {
+    display: flex;
+    margin: 2em 0;
+
+    img {
+        width: 35vw;
+    }
+    .location-information-block {
+        background-color: $blue-transparant;
+        padding: 2em;
+        color: $white;
+
+        h2 {
+            color: $yellow;
+            font-size: 2em;
+            font-weight: 400;
+        }
+        .location-address {
+            margin: 2em 0;
+        }
+        p {
+            line-height: 1.3em;
+        }
+    }
+}
+
