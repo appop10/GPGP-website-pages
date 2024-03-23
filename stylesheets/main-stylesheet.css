@@ -30,12 +30,13 @@ a {
 .button {
   background-color: rgba(169, 132, 68, 0.8941176471);
   padding: 0.5em 2em;
-  color: #0c0d0f;
+  color: #efece7;
 }
 
 .button:hover {
-  background-color: #9f412c;
+  background-color: rgba(12, 13, 15, 0.8823529412);
   color: #efece7;
+  border: 1px solid #efece7;
 }
 
 .red-link {
@@ -84,9 +85,9 @@ nav .menu-links .login-button {
   margin-right: 1.75em;
 }
 nav .menu-links .login-button:hover {
-  background-color: rgba(239, 236, 231, 0.8392156863);
-  color: #0c0d0f;
-  border: 1px solid #0c0d0f;
+  background-color: rgba(12, 13, 15, 0.8823529412);
+  color: #efece7;
+  border: 1px solid #efece7;
 }
 
 .solid-background {

@@ -42,11 +42,12 @@ a {
 .button {
     background-color: $yellow-transparant;
     padding: 0.5em 2em;
-    color: $black;
+    color: $white;
 }
 .button:hover {
-    background-color: $red;
+    background-color: $black-transparant;
     color: $white;
+    border: 1px solid $white;
 }
 .red-link {
     color: $red;
@@ -95,9 +96,9 @@ nav {
             margin-right: 1.75em;
         }
         .login-button:hover {
-            background-color: $white-transparant;
-            color: $black;
-            border: 1px solid $black;
+            background-color: $black-transparant;
+            color: $white;
+            border: 1px solid $white;
         }
     }
 }
