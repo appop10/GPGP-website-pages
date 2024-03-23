@@ -12,11 +12,12 @@ header {
         @include text-shadow();
 
         img {
-            height: 12vw;
+            height: 15vw;
             margin: 1em;
         }
     }
 }
+
 
 .display-section {
     display: flex;
