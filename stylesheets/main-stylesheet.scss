@@ -1,6 +1,7 @@
 $red: #9f412c;
 $red-transparant: #64281be4;
 $yellow: #d5ab62;
+$dark-yellow: #a98444f8;
 $yellow-transparant: #a98444e4;
 $blue-transparant: #1d213bdf;
 $black: #0c0d0f;
@@ -99,6 +100,9 @@ nav {
             border: 1px solid $black;
         }
     }
+}
+.solid-background {
+    background-color: $dark-yellow;
 }
 
 .hamburger-menu {

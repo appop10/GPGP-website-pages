@@ -9,5 +9,13 @@ function pageLoad() {
 
         document.querySelector('.menu-links').classList.toggle('drop-down-menu');
     }
+
+    document.querySelector('body').onscroll = () => {
+        if (document.documentElement.scrollTop > 50) {
+            document.querySelector('nav').classList.add('solid-background');
+        } else {
+            document.querySelector('nav').classList.remove('solid-background');
+        }
+    }
     
 }

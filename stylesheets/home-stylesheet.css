@@ -89,6 +89,10 @@ nav .menu-links .login-button:hover {
   border: 1px solid #0c0d0f;
 }
 
+.solid-background {
+  background-color: rgba(169, 132, 68, 0.9725490196);
+}
+
 .hamburger-menu {
   display: none;
 }
