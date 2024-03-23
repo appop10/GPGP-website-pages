@@ -49,6 +49,10 @@ a {
     color: $white;
     border: 1px solid $white;
 }
+.yellow-link {
+    color: $yellow;
+    text-decoration: underline;
+}
 
 nav {
     display: flex;

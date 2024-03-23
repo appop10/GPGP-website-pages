@@ -39,6 +39,11 @@ a {
   border: 1px solid #efece7;
 }
 
+.yellow-link {
+  color: #d5ab62;
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -298,8 +303,6 @@ header h1 img {
   position: absolute;
   bottom: 0;
   right: 0;
-  color: #d5ab62;
-  text-decoration: underline;
   padding: 1em;
   font-size: 1em;
 }

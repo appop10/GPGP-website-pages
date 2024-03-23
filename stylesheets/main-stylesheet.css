@@ -39,6 +39,11 @@ a {
   border: 1px solid #efece7;
 }
 
+.yellow-link {
+  color: #d5ab62;
+  text-decoration: underline;
+}
+
 nav {
   display: flex;
   align-items: center;
