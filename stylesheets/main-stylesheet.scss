@@ -45,6 +45,7 @@ a {
     color: $white;
 }
 .button:hover {
+    cursor: pointer;
     background-color: $black-transparant;
     color: $white;
     border: 1px solid $white;
