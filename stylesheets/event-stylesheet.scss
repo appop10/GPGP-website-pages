@@ -58,3 +58,45 @@ header {
     }
 }
 
+.news-container {
+    width: 85vw;
+    margin: 15vw 0;
+
+    h2 {
+        color: $red;
+        font-size: 2.5em;
+        border: 1px solid $red;
+        border-style: none none solid none;
+        @include text-shadow();
+    }
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 3em 0;
+
+        .news-card {
+            background-color: $blue-transparant;
+            width: 28%;
+            color: $white;
+            padding: 1em;
+            padding-bottom: 3em;
+            position: relative;
+
+            h3 {
+                margin-bottom: 0.5em;
+                font-size: 1.3em;
+            }
+            p {
+                color: $white-transparant;
+                font-size: 1em;
+            }
+            a {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 1em;
+                font-size: 1em;
+            }
+        }
+    }
+}
