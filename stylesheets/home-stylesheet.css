@@ -39,12 +39,6 @@ a {
   border: 1px solid #efece7;
 }
 
-.red-link {
-  color: #9f412c;
-  text-decoration: underline;
-  font-size: 1.3em;
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -280,15 +274,14 @@ header h1 img {
 .news-container .cards-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 3em 0;
 }
 .news-container .cards-container .news-card {
   background-color: rgba(29, 33, 59, 0.8745098039);
   width: 28%;
-  height: 11vw;
   color: #efece7;
   padding: 1em;
+  padding-bottom: 3em;
   position: relative;
 }
 .news-container .cards-container .news-card h3 {

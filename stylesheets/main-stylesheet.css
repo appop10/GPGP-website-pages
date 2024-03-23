@@ -39,12 +39,6 @@ a {
   border: 1px solid #efece7;
 }
 
-.red-link {
-  color: #9f412c;
-  text-decoration: underline;
-  font-size: 1.3em;
-}
-
 nav {
   display: flex;
   align-items: center;
