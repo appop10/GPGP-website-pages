@@ -250,6 +250,9 @@ header {
   width: 35vw;
 }
 .image-and-content-block .location-information-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgba(29, 33, 59, 0.8745098039);
   padding: 2em;
   color: #efece7;

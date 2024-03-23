@@ -37,6 +37,9 @@ header {
         width: 35vw;
     }
     .location-information-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background-color: $blue-transparant;
         padding: 2em;
         color: $white;
