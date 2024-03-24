@@ -166,7 +166,12 @@ header {
 .table-container {
     display: flex;
     justify-content: center;
-    padding: 5em 0;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    transition-property: padding, height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 
     .indv-cell {
         border: 3px solid $yellow;
@@ -191,6 +196,11 @@ header {
             }
         }
     }
+}
+
+.expand-table {
+    height: fit-content;
+    padding: 5em 0;
 }
 
 .game-notes {
