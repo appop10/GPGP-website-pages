@@ -255,3 +255,36 @@ header {
         width: 35vw;
     }
 }
+@media only screen and (max-width: 820px) {
+    .image-and-content-block {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2em;
+
+        img {
+            width: 50%;
+        }
+        .location-information-block {
+            width: 50%;
+        }
+    }
+    .news-container {
+        .cards-container {
+            .news-card {
+                width: 40vw;
+            }
+        }
+    }
+    .game-notes {
+        width: 85vw;
+    }
+    .table-container {
+        flex-direction: column;
+        align-items: center;
+        
+        .indv-cell {
+            width: 90%;
+            margin-bottom: 0.5em;
+        }
+    }
+}
