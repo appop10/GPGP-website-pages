@@ -55,7 +55,6 @@ nav {
   display: flex;
   align-items: center;
   background-color: rgba(169, 132, 68, 0.8941176471);
-  padding: 0.5em 0;
   position: fixed;
   top: 0;
   z-index: 150;
@@ -63,9 +62,9 @@ nav {
 }
 nav .GPGP-large {
   font-size: 2.4em;
-  padding: 7px 0 0 0;
   margin-right: 0.5em;
   margin-left: 0.75em;
+  padding-top: 0.25em;
   font-family: "rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 nav .menu-links {
@@ -79,15 +78,20 @@ nav .menu-links ul {
   list-style-type: none;
 }
 nav .menu-links ul a {
-  padding: 0.35em 1em;
-  margin: 0 0.25em;
+  padding: 0.85em 1.5em;
 }
 nav .menu-links ul a:hover {
+  background-color: rgba(12, 13, 15, 0.8823529412);
+  border: 1px solid #0c0d0f;
+}
+nav .menu-links ul a.active {
+  background-color: rgba(12, 13, 15, 0.8823529412);
   border: 1px solid #0c0d0f;
 }
 nav .menu-links .login-button {
   border: 1px solid #efece7;
   padding: 0.35em 2em;
+  margin: 0.5em 0;
   margin-right: 1.75em;
 }
 nav .menu-links .login-button:hover {
