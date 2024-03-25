@@ -455,6 +455,17 @@ header {
     width: 35vw;
   }
 }
+@media only screen and (max-width: 1180px) {
+  .image-and-content-block {
+    width: 90%;
+  }
+  .image-and-content-block img {
+    width: 50%;
+  }
+  .image-and-content-block .location-information-block {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 820px) {
   .image-and-content-block {
     width: 100%;
