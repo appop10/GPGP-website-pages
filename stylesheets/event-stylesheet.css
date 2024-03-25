@@ -511,4 +511,38 @@ header {
     width: 90vw;
     padding: 2em;
   }
+}
+@media only screen and (max-width: 600px) {
+  .event-title-block {
+    padding: 3em 2em;
+    padding-top: 6em;
+    align-items: flex-start;
+  }
+  .event-title-block h2 {
+    font-size: 2.5em;
+  }
+  .news-container .cards-container .news-card {
+    width: 100%;
+  }
+  .button-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-container a {
+    width: 60%;
+    margin: 0.5em 0;
+    text-align: center;
+  }
+  .day-header h2 {
+    font-size: 1.5em;
+  }
+  .table-container .indv-cell {
+    width: 80%;
+    margin-bottom: 1em;
+  }
+  .game-notes {
+    width: 100%;
+    margin: 20vh 0;
+  }
 }/*# sourceMappingURL=event-stylesheet.css.map */
