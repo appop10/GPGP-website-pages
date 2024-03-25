@@ -164,6 +164,8 @@ footer p {
   }
   nav .GPGP-large {
     font-size: 1.6em;
+    padding: 0.35em 0;
+    padding-top: 0.55em;
   }
   nav .menu-links {
     position: absolute;
