@@ -349,6 +349,7 @@ header {
 }
 .day-header h2 {
   font-size: 1.75em;
+  padding-top: 0.25em;
 }
 .day-header p.arrow {
   display: flex;
@@ -435,4 +436,22 @@ header {
 }
 .game-notes ul li::marker {
   color: #d5ab62;
+}
+
+@media only screen and (min-width: 1280px) {
+  .news-container {
+    width: 65vw;
+  }
+  .news-container .cards-container .news-card {
+    width: 20vw;
+  }
+  #event-details .button-container {
+    width: 65vw;
+  }
+  #event-details .indv-day-container {
+    width: 65vw;
+  }
+  .game-notes {
+    width: 35vw;
+  }
 }/*# sourceMappingURL=event-stylesheet.css.map */

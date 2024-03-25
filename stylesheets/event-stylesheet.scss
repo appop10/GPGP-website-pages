@@ -137,6 +137,7 @@ header {
 
     h2 {
         font-size: 1.75em;
+        padding-top: 0.25em;
     }
     p.arrow {
         display: flex;
@@ -229,5 +230,28 @@ header {
         li::marker {
             color: $yellow;
         }
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .news-container {
+        width: 65vw;
+
+        .cards-container {
+            .news-card {
+                width: 20vw;
+            }
+        }
+    }
+    #event-details {
+        .button-container {
+            width: 65vw;
+        }
+        .indv-day-container {
+            width: 65vw;
+        }
+    }
+    .game-notes {
+        width: 35vw;
     }
 }
