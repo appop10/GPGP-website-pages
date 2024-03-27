@@ -236,7 +236,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 6em 0 2em 0;
+  padding: 6.5em 0 2em 0;
 }
 .event-title-block h2 {
   font-size: 2.5em;
@@ -293,7 +293,7 @@ header {
 }
 .news-container .cards-container .news-card {
   background-color: rgba(29, 33, 59, 0.8745098039);
-  width: 28%;
+  width: 32%;
   color: #efece7;
   padding: 1em;
   padding-bottom: 3em;
