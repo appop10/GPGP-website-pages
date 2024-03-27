@@ -190,14 +190,6 @@ header {
     .news-container {
         width: 95%;
         margin: 30vw 0;
-
-        .cards-container {
-            align-items: center;
-
-            .news-card {
-                width: 30vw;
-            }
-        }
     }
     .mission-card {
         width: 55vw;
@@ -239,11 +231,14 @@ header {
         }
     }
     .news-container {
+        width: 60%;
+        
         .cards-container {
+            align-items: center;
             flex-direction: column;
 
             .news-card {
-                width: 45vw;
+                width: 100%;
                 margin: 1em 0;
             }
         }
@@ -283,12 +278,11 @@ header {
         }
     }
     .news-container {
-        h2 {
-            font-size: 2em;
-        }
+        width: 90%;
+        
         .cards-container {
             .news-card {
-                width: 75vw;
+                width: 100%;
                 margin: 1em 0;
             }
         }

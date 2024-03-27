@@ -276,9 +276,15 @@ header {
         margin-bottom: 2em;
     }
     .news-container {
+        width: 60%;
+
         .cards-container {
+            align-items: center;
+            flex-direction: column;
+
             .news-card {
-                width: 40vw;
+                width: 100%;
+                margin: 1em 0;
             }
         }
     }
@@ -307,12 +313,12 @@ header {
         }
     }
     .news-container {
+        width: 90%;
+        
         .cards-container {
-            flex-direction: column;
-            align-items: center;
-
             .news-card {
-                width: 60vw;
+                width: 100%;
+                margin: 1em 0;
             }
         }
     }

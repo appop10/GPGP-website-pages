@@ -390,12 +390,6 @@ header h1 img {
     width: 95%;
     margin: 30vw 0;
   }
-  .news-container .cards-container {
-    align-items: center;
-  }
-  .news-container .cards-container .news-card {
-    width: 30vw;
-  }
   .mission-card {
     width: 55vw;
   }
@@ -429,11 +423,15 @@ header h1 img {
     font-size: 1.2em;
     width: 100%;
   }
+  .news-container {
+    width: 60%;
+  }
   .news-container .cards-container {
+    align-items: center;
     flex-direction: column;
   }
   .news-container .cards-container .news-card {
-    width: 45vw;
+    width: 100%;
     margin: 1em 0;
   }
   .mission-card {
@@ -466,11 +464,11 @@ header h1 img {
     width: 100%;
     height: 50%;
   }
-  .news-container h2 {
-    font-size: 2em;
+  .news-container {
+    width: 90%;
   }
   .news-container .cards-container .news-card {
-    width: 75vw;
+    width: 100%;
     margin: 1em 0;
   }
   .mission-card {

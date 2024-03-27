@@ -476,8 +476,16 @@ header {
     margin: 0;
     margin-bottom: 2em;
   }
+  .news-container {
+    width: 60%;
+  }
+  .news-container .cards-container {
+    align-items: center;
+    flex-direction: column;
+  }
   .news-container .cards-container .news-card {
-    width: 40vw;
+    width: 100%;
+    margin: 1em 0;
   }
   .table-container {
     flex-direction: column;
@@ -501,12 +509,12 @@ header {
   .image-and-content-block .location-information-block {
     width: 100%;
   }
-  .news-container .cards-container {
-    flex-direction: column;
-    align-items: center;
+  .news-container {
+    width: 90%;
   }
   .news-container .cards-container .news-card {
-    width: 60vw;
+    width: 100%;
+    margin: 1em 0;
   }
   .table-container .indv-cell {
     width: 95%;
