@@ -462,6 +462,7 @@ header {
 @media only screen and (max-width: 1180px) {
   .image-and-content-block {
     width: 90%;
+    margin: 3em 0;
   }
   .image-and-content-block img {
     width: 50%;
